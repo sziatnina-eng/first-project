@@ -1,0 +1,47 @@
+.aquarium {
+        width: 600px;
+        height: 600px;
+        overflow: hidden;
+        padding: 70px;
+        margin: 25px;
+        background-color: rgb(23, 70, 117);
+        border-bottom: 7px solid black;
+        border-left: 3px solid rgb(111, 101, 136);
+        border-right: 3px solid rgb(111, 101, 136);
+        border-top: 1px solid rgb(255, 206, 214);
+    }
+
+.aquarium > img {
+    width: 120px;
+    padding: 30px;
+    border: 1px dotted aliceblue
+
+    }
+.aquarium > #whale {
+    width: 180px;
+    position: relative;
+    top: 30px;
+    }
+
+.aquarium > #moon {
+    top: 100px;
+    right: 500px
+}
+.aquarium > #sleepy_whale {
+        position: relative;
+        top: 120px;
+        left: 190px;
+    }
+
+.aquarium > #air_balloon {
+        width: 140px;
+        padding-left: 50px;
+        padding-top: 10px;
+    }
+
+.aquarium > .night {
+    width: 400px;
+        padding-left: 240px;
+        padding-top: 10px;
+        opacity: 70%;
+    }
