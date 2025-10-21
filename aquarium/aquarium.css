@@ -1,4 +1,5 @@
 .aquarium {
+        position: absolute;
         width: 600px;
         height: 600px;
         overflow: hidden;
@@ -9,39 +10,63 @@
         border-left: 3px solid rgb(111, 101, 136);
         border-right: 3px solid rgb(111, 101, 136);
         border-top: 1px solid rgb(255, 206, 214);
+        z-index: 0
     }
 
-.aquarium > img {
-    width: 120px;
-    padding: 30px;
-    border: 1px dotted aliceblue
 
-    }
 .aquarium > #whale {
-    width: 180px;
-    position: relative;
-    top: 30px;
+        max-width: 400px;
+        max-height: 400px;
+        position: absolute;
+        top: 85px;
+        right:185px;
+        z-index: 4
     }
 
 .aquarium > #moon {
-    top: 100px;
-    right: 500px
+        position: absolute;
+        bottom: 450px;
+        left: 450px;
+        z-index: 3
 }
 .aquarium > #sleepy_whale {
-        position: relative;
-        top: 120px;
-        left: 190px;
+        position: absolute;
+        top: 220px;
+        left: 40px;
+        z-index: 7
     }
 
 .aquarium > #air_balloon {
-        width: 140px;
-        padding-left: 50px;
-        padding-top: 10px;
+        position: absolute;
+        width: 200px;
+        right: 350px;
+        top: 230px;
+        z-index: 5
     }
 
-.aquarium > .night {
-    width: 400px;
-        padding-left: 240px;
-        padding-top: 10px;
-        opacity: 70%;
+.aquarium > .cloud {
+        position: absolute;
+        width: 400px;
+        right: 450px;
+        bottom: 550px;
+        opacity:80%;
+        z-index: 6
     }
+
+.aquarium > .clouds {
+    position: absolute;
+    width: 400px;
+    left: 350px;
+    top: 490px;
+    opacity: 85%;
+    z-index: 10
+}
+
+
+.aquarium > .stars {
+       position: absolute;
+       width: 730px;
+       right: 10px;
+       opacity: 80%;
+       z-index: -1
+}
