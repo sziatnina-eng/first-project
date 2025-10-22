@@ -18,7 +18,7 @@ class MovablePoint(Movable):
     def toString(self) -> str:
         pass
 
-class MovableCircle:
+class MovableCircle(Movable):
     center: MovablePoint
     radius: int
     def __init__(self, x:int, y:int, xSpeed:int, ySpeed:int, radius:int):
