@@ -1,0 +1,14 @@
+.dove {
+        max-width: 400px;
+        max-height: 400px;
+        position: fixed;
+        top: 85px;
+        right:185px;
+        transition-property: transform;
+        transition-duration: 2s;
+        transition-timing-function: ease-out;
+        transition-delay: 0.1s;
+    }
+.dove:hover{
+    transform: translateX(100px) rotate(1080deg) scale(2);
+}
